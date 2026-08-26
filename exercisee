@@ -1,0 +1,33 @@
+#input exercises
+
+size = int(input("size = "))
+question = str(input("Would you like to calculate? ")).strip().lower()
+
+def calculate():
+    area = size ** 2 #stepenuva chisloto na 2ra stepen
+    txt = f"The area is {area}"
+    print(txt)
+
+if question == "yes":
+    calculate()
+else:
+    print("then why use this?")
+
+def print_erm():
+    num1 = input("Enter num1: ")
+    num2 = input("Enter num2: ")
+    num3 = input("Enter num3: ")
+    question = str(input("Would you like to print? "))
+
+    if question == "yes":
+        print(num1, num2, num3)
+    else:
+        print("no print then lol")
+
+question1 = str(input("Would you like to do printing exercise? "))
+
+if question1 == "yes":
+    print_erm()
+else: 
+    print("no exercise then!")
+   
