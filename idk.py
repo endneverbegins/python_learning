@@ -34,4 +34,4 @@ if 2 > 1: #bruh
         print("Fact is that", 2, "is greater than", 1) #statement is in "" and then in order to put the numbers in the statement we use commas to separate them
 
 print_values()
-local_variable()
+local_variable() #hi
