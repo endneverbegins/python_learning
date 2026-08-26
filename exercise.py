@@ -2,6 +2,20 @@
 
 text = " I Love YURI "
 
+price = 59
+txt = f"The price is {price:.2f} dollars" #displays the price with 2 decimal places
+print(txt)
+
+age = 36
+txt = f"My name is John, I am {age}" #f-strings can also be used to format numbers and other data types
+print(txt)
+
+def concentrate():
+    a = "I"
+    b = "Love"
+    c = "Yuri"
+    return a + " " + b + " " + c #returns a result
+
 def slice():
     a = "I love yuri"
     print(a[7:])
@@ -30,6 +44,7 @@ def strip():
 def replace():
     print(text.replace("YURI", "Yuri")) #this method will replace the specified value with another value in the string
 
+print(concentrate()) #prints the result of the concentrate function
 lower()
 upper()
 replace()
